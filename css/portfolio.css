@@ -1,0 +1,26 @@
+.list {
+  list-style: none;
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-button-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--primary-button-color);
+}
