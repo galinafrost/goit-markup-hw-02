@@ -9,16 +9,38 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 14px;
 }
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.link {
+  cursor: default;
 }
 
 /* site-nav */
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -49,14 +71,30 @@ body {
 
 .footer-logo {
   color: var(--accent-color);
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .footer-adress {
   color: var(--primary-white-color);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact-foot .link {
   color: var(--title-text-color);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .contact-foot .link:hover,
