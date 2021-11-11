@@ -25,6 +25,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+.logo-studio {
+  color: var(--title-text-color);
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -32,6 +42,10 @@ button {
 
 .link {
   cursor: default;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* site-nav */
@@ -56,6 +70,11 @@ button {
 
 .contact-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contact-nav .link:hover,
@@ -79,6 +98,16 @@ button {
   letter-spacing: 0.03em;
 }
 
+.logo-foot {
+  color: var(--primary-white-color);
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .footer-adress {
   color: var(--primary-white-color);
 
@@ -89,7 +118,7 @@ button {
 }
 
 .contact-foot .link {
-  color: var(--title-text-color);
+  color: rgba(255, 255, 255, 0.6);
 
   font-weight: normal;
   font-size: 14px;
@@ -104,4 +133,8 @@ button {
 
 .contact-foot .link.current {
   color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
 }
