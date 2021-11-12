@@ -25,16 +25,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-studio {
-  color: var(--title-text-color);
-  font-family: Raleway;
-
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
 button {
   font-family: inherit;
   cursor: pointer;
@@ -115,6 +105,10 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.contact-foot {
+  font-style: normal;
 }
 
 .contact-foot .link {

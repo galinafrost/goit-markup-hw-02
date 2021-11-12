@@ -40,18 +40,3 @@
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-
-.radio-button .button.current {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
-/* .button.primary {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-
-.button.secondary {
-  color: var(--title-text-color);
-  background-color: var(--primary-button-color);
-} */
