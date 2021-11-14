@@ -25,6 +25,16 @@ body {
   letter-spacing: 0.03em;
 }
 
+.logo-header {
+  color: var(--title-text-color);
+  font-family: Raleway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 button {
   font-family: inherit;
   cursor: pointer;
@@ -89,6 +99,16 @@ a {
 }
 
 .logo-foot {
+  color: var(--primary-white-color);
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
   color: var(--primary-white-color);
 
   font-family: Raleway;
